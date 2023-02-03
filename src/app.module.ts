@@ -8,7 +8,7 @@ import { AppService } from './app.service';
 import { AppController } from './app.controller';
 import { Todo, TodoSchema } from './todo.schema';
 
-const mongoUri = process.env.MONGO_URI || 'mongodb+srv://Maiswaffeln:<txpfix8v7EqzruYI>@cluster0.vead3fg.mongodb.net/?retryWrites=true&w=majority'; // TODO Find a way to set process.env.MONGO_URI for deployment (Docker + GitHub)
+const mongoUri = process.env.MONGO_URI || 'mongodb+srv://testUser:testPassword@cluster0.vead3fg.mongodb.net/?retryWrites=true&w=majority'; // TODO Find a way to set process.env.MONGO_URI for deployment (Docker + GitHub)
 
 @Module({
   imports: [
